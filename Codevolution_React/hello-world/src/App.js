@@ -3,6 +3,7 @@ import {Greet} from './components/Greet'
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
 import './App.css';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       <Welcome name= "Bruce" superheroname="Bat Man"/>
       <Welcome name= "Diana" superheroname="Wonder Woman"/> */}
       {/* <Hello /> */}
-      <Message />
+      {/* <Message /> */}
+      <Counter addValue= {2}/>
     </div>
   )
 }
